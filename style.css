@@ -1,0 +1,531 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden !important;
+}
+
+.mainnav{
+    padding-right: 5vw;
+    padding-left: 5vw;
+    height: 50px;
+    margin-top: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.partone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 40vh; */
+    padding: 0px 10vw;
+    width: 90vw;
+}
+
+#browse{
+    font-size: 1.27rem;
+    opacity: 0.57;
+}
+
+.partonebuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    /* margin-bottom: 0; */
+    width: 100%;
+    height: 100px !important; 
+    overflow-x: auto;
+}
+
+.partoneanchor{
+    padding: 12px 16px;
+    background-color: rgb(241, 241, 241);
+}
+
+.partoneanchor:hover{
+    background-color: rgb(219, 217, 217);
+}
+
+#que{
+    border: 2px solid grey;
+    padding: 4px;
+    border-radius:50%;
+    height: 14px;
+    width: 14px;
+    text-align: center;
+}
+
+#alblue{
+    border: 1.7px solid rgb(57, 57, 255);
+    border-radius: 6px;
+}
+
+.partoneanchorspan{
+    font-size: 18px;
+}
+
+.partoneadiv{
+    margin: 5px;
+}
+
+#looking{
+    color: blue;
+}
+
+#looking:hover{
+    text-decoration: underline;
+}
+
+#navdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+#navleftdiv{
+    display: flex;
+    align-items: center;
+}
+
+#navrightdiv{
+    display: flex;
+    align-items: center;
+}
+
+.navdiv{
+    padding: 10px;
+}
+
+#content{
+    /* padding: 0 5vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#butto{
+    padding: 14px 20px 14px 20px;
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 7px;
+    box-shadow: 2px 2px rgb(228, 228, 228);
+}
+
+.partonedivs{
+    margin: 20px;
+    margin-top: 0;
+    padding: 2px;
+}
+
+#headingdiscover{
+    font-size: 58px;
+    /* width: 64vw; */
+    margin: 0;
+    margin-left: 1vw;
+    line-height: 60px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 10vw;
+    padding-right: 12vw;
+}
+
+.searchdiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#bakwas{
+    display: flex;
+    align-items: center;
+}
+
+#inputsearch{
+    width: 40vw;
+    height: 48px;
+}
+
+#inputsearch input{
+    border: none;
+    margin-left: 5px;
+}
+
+#inputsearch input:focus{
+    border: none;
+    outline: none;
+}
+
+#searchcontainer{
+    border: 1px solid grey;
+    height: 48px;
+    width: 43vw;
+}
+
+.arrowdown{
+    width: 5px;
+    height: 5px;
+    padding-left:3px;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+#search{
+    height: 100%;
+    width: 100%;
+}
+
+.contentone{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.layerone{
+    display: flex;
+
+}
+
+@media(max-width:770px){
+    #headingdiscover{
+        font-size: 35px;
+    }
+
+    .partonebuttons{
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        width: 100%;
+        height: 100px !important; 
+        overflow-x: scroll;
+    }
+
+    #browse{
+        font-size: 0.94rem;
+        opacity: 0.7;
+    }
+
+    .cardsdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 40px;
+    }
+
+    #headingdiscover{
+        margin: 0;
+        line-height: 40px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .footerdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        padding-left: 8vw;
+    }
+
+    .faltutimepass{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100vw;
+    }
+}
+
+.parttwo{
+    padding: 0 7vw;
+    /* margin-top: 2px; */
+}
+
+/* .fa-solid{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} */
+
+.footerdiv{
+    margin-bottom:100px ;
+}
+
+#hellocontent{
+    opacity: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:1070px){
+    .navdiv{
+        opacity: 0;
+        position:absolute;
+        height: 50px;
+    }
+
+    #navdiv{
+        position: relative;
+    }
+
+    #logo,#hellocontent{
+        opacity: 1;
+    }
+
+    .partone{
+        padding: 0 5vw;
+    }
+
+    #headingdiscover{
+        width: 85vw;
+    }
+}
+
+@media(min-width:770px){
+    .mainnav{
+        padding: 0 7vw;
+    }
+
+    .footerdiv{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.items{
+    padding:7px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 5px;
+    font-size: 1.1rem;
+}
+
+#itemtwo{
+    width: 220px;
+}
+
+button{
+    background-color: white;
+    border: none;
+}
+
+#showcaseanchor{
+    padding: 12px 16px;
+    background-color: rgb(28, 131, 242);
+    color: white;
+    margin: 0;
+    display: block;
+}
+
+#showcaseanchor:hover{
+    background-color: rgb(50, 142, 240);
+}
+
+.togg{
+    font-size: 2rem;
+}
+
+@media(min-width:771px){
+    .cardsdiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 40px;
+    }
+
+    .cardimage{
+        height: 20vw;
+    }
+
+    .cardupper{
+        height: 20vw;
+        width: 100%;
+        background-color: black;
+        z-index: 1;
+    }
+}
+
+.card a{
+    width: 100%;
+    /* height: 1vw; */
+}
+
+img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.cardimage{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardcontentone{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+@media(max-width:684px){
+    .cardsdiv{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+        grid-column-gap: 30px;
+        grid-row-gap: 40px;
+    }
+    #showcaseanchor{
+        margin: 10px;
+    }
+}
+
+.cctypeone{
+    display: flex;
+    justify-content: space-between;
+}
+
+#madeinwebflow{
+    padding: 6px 20px;
+    background-color: rgb(246, 246, 246);
+    margin-top: 49px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#madeinwebflow:hover{
+    background-color: rgb(225, 225, 225);
+}
+
+#madeinwebflow img{
+    width: 30px;
+    height: 30px;
+    padding-right: 3px;
+}
+
+#logo img{
+    width: 40px;
+    height: 40px;
+    /* padding-bottom: 18px; */
+}
+
+#getstarted{
+    padding: 11px 24px;
+    background-color: rgb(10, 124, 245);
+    color: white;
+    margin: 0;
+    display: block;
+}
+
+.lefttypeone{
+    opacity: 0.6;
+    font-size: 1.07rem;
+    padding: 2px;
+}
+
+#lefttypetwo{
+    opacity: 1;
+}
+
+.lefttypeone:hover{
+    opacity: 1;
+}
+
+.righttypeone{
+    opacity: 0.6;
+    padding: 12px 16px;
+    font-size: 1.1rem;
+}
+
+.righttypeone:hover{
+    background-color: rgb(227, 225, 225);
+}
+
+#getstarted:hover{
+    background-color: rgb(52, 125, 203);
+}
+
+#searchmagnify{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.ex1{
+    padding: 10px;
+    padding-left: 0;
+    opacity: 0.7;
+}
+
+.ex1:hover{
+    color: black;
+    opacity: 1;
+}
+
+.upperpart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.27);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index:10;
+    text-align: center;
+}
+
+.cardimage:hover .upperpart {
+    opacity: 1;
+}
+
+.showmoreanchor {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 17px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cardimage img {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+    transition: transform 0.3s ease;
+}
+
+.cardimage:hover img {
+    transform: scale(1.1);
+}
